@@ -1,0 +1,14 @@
+extends layout.pug
+
+block content
+  div(class='container mt-5')
+    .row
+      each post in posts
+        article(class='col-md-4 col-sd-3 post')
+          header
+            h2= post.title
+            time= post.date
+          p= post.excerpt
+          - var slug = '/blog/' + post.slug; 
+          p
+            a(href=slug class='btn btn-primary') Read More

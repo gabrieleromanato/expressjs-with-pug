@@ -1,0 +1,63 @@
+.post h2 {
+    font-size: 16px;
+    font-variant: small-caps;
+    letter-spacing: 2px;
+}
+
+.post p {
+    margin: 17px 0;
+}
+
+.post time {
+    display: block;
+    margin-top: 4px;
+    color: #888;
+}
+
+.btn-primary {
+    background: transparent;
+    color: #000;
+    border: 1px solid #ddd;
+    font-weight: normal;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 0;
+}
+
+.btn-primary:hover {
+    border-color: #000;
+    background: transparent;
+    color: #000;
+}
+
+.single header {
+    text-align: center;
+    margin-bottom: 3em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #ddd;
+}
+
+.single header time {
+    display: block;
+    margin-top: 4px;
+    color: #888;
+}
+
+.single header h1 {
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.single header div {
+    margin-top: 1em;
+    font-style: italic;
+}
+
+.single-content {
+    line-height: 1.6;
+    padding: 0 15%;
+    font-size: 23px;
+    font-family: Georgia, serif;
+}
